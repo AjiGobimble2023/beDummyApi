@@ -730,6 +730,7 @@ const getNilaiTobk=(req,res)=>{
             "nilai": [
                 {
                     "namaKelompokUjian": "Kemampuan Memahami Bacaan dan Menulis",
+                    "initial":"KMM",
                     "benar": 4,
                     "salah": 1,
                     "kosong": 5,
@@ -740,6 +741,7 @@ const getNilaiTobk=(req,res)=>{
                 },
                 {
                     "namaKelompokUjian": "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM",
+                    "initial":"TPP",
                     "benar": 5,
                     "salah": 5,
                     "kosong": 0,
@@ -750,6 +752,7 @@ const getNilaiTobk=(req,res)=>{
                 },
                 {
                     "namaKelompokUjian": "LITERASI DALAM BAHASA INDONESIA",
+                    "initial":"LBI",
                     "benar": 10,
                     "salah": 0,
                     "kosong": 0,
@@ -760,6 +763,7 @@ const getNilaiTobk=(req,res)=>{
                 },
                 {
                     "namaKelompokUjian": "PENGETAHUAN KUANTITATIF",
+                    "initial":"PK",
                     "benar": 8,
                     "salah": 2,
                     "kosong": 0,
@@ -770,6 +774,7 @@ const getNilaiTobk=(req,res)=>{
                 },
                 {
                     "namaKelompokUjian": "LITERASI DALAM BAHASA INGGRIS",
+                    "initial":"LBING",
                     "benar": 10,
                     "salah": 0,
                     "kosong": 0,
@@ -780,6 +785,7 @@ const getNilaiTobk=(req,res)=>{
                 },
                 {
                     "namaKelompokUjian": "PENALARAN MATEMATIKA",
+                    "initial":"MTP",
                     "benar": 7,
                     "salah": 2,
                     "kosong": 1,
@@ -790,6 +796,7 @@ const getNilaiTobk=(req,res)=>{
                 },
                 {
                     "namaKelompokUjian": "KEMAMPUAN PENALARAN UMUM",
+                    "initial":"KPU",
                     "benar": 12,
                     "salah": 3,
                     "kosong": 0,
@@ -909,5 +916,6 @@ module.exports={
     getPresensi,
     getkuis,
     getTobk,
-    getNilaiTobk
+    getNilaiTobk,
+    getGOA
 }

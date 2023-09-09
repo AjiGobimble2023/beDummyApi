@@ -349,7 +349,42 @@ const handleLogin = (req, res) => {
         "kirimOTP": false
     });
 }
+const validasiRegister = (req,res)=>{
+    res.json({
+        "status": true,
+        "message": "Silahkan input OTP",
+        "data": {
+            "noRegistrasi": "981123000001",
+            "namaLengkap": "RAHMAD FARIZAN",
+            "idSekolahKelas": "14",
+            "namaSekolahKelas": "12 SMA IPA",
+            "siapa": "SISWA",
+            "idKelas": "265287",
+            "namaKelas": "12-IPA-R-N-T-1",
+            "jenisKelas": null,
+            "idGedung": "675",
+            "namaGedung": "KOMBES H. UMAR 75",
+            "idKota": "214",
+            "namaKota": "PAGARALAM",
+            "idSekolah": "117724",
+            "namaSekolah": "MAN Sidoarjo",
+            "tahunAjaran": "2023/2024",
+            "c_Statusbayar": "LUNAS",
+            "email": "rahmad.farizan.rf@gmail.com",
+            "emailOrtu": "0@gmail.com",
+            "nomorHp": "082286968275",
+            "nomorHpOrtu": "082286968274"
+        },
+        "pilihanPTN": "{\"pilihan1\":3321073,\"pilihan2\":3611186,\"historyPilihan\":[{\"pilihan\":1,\"tanggal\":\"2023-06-09 08:28:01\",\"idJurusan\":3321073},{\"pilihan\":2,\"tanggal\":\"2023-06-09 08:29:05\",\"idJurusan\":3611186}]}",
+        "jobOrtu": "KARYAWAN SWASTA",
+        "daftarAnak": [],
+        "tokenJWT": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTM2MjkyOTYsImV4cCI6MTY5NjIyMTI5NiwidWlkIjoiOTgxMTIzMDAwMDAxIiwiZGF0YSI6eyJub1JlZ2lzdHJhc2kiOiI5ODExMjMwMDAwMDEiLCJuYW1hTGVuZ2thcCI6IlJBSE1BRCBGQVJJWkFOIiwiaWRTZWtvbGFoS2VsYXMiOiIxNCIsIm5hbWFTZWtvbGFoS2VsYXMiOiIxMiBTTUEgSVBBIiwic2lhcGEiOiJTSVNXQSIsImlkS2VsYXMiOiIyNjUyODciLCJuYW1hS2VsYXMiOiIxMi1JUEEtUi1OLVQtMSIsImplbmlzS2VsYXMiOm51bGwsImlkR2VkdW5nIjoiNjc1IiwibmFtYUdlZHVuZyI6IktPTUJFUyBILiBVTUFSIDc1IiwiaWRLb3RhIjoiMjE0IiwibmFtYUtvdGEiOiJQQUdBUkFMQU0iLCJpZFNla29sYWgiOiIxMTc3MjQiLCJuYW1hU2Vrb2xhaCI6Ik1BTiBTaWRvYXJqbyIsInRhaHVuQWphcmFuIjoiMjAyM1wvMjAyNCIsImNfU3RhdHVzYmF5YXIiOiJMVU5BUyIsImVtYWlsIjoicmFobWFkLmZhcml6YW4ucmZAZ21haWwuY29tIiwiZW1haWxPcnR1IjoiMEBnbWFpbC5jb20iLCJub21vckhwIjoiMDgyMjg2OTY4Mjc1Iiwibm9tb3JIcE9ydHUiOiIwODIyODY5NjgyNzQifX0.UKyLOZTGOeP98QU6aBtiZBfOCzCSnNrkfw9ycVsTqIo",
+        "daftarProduk": [],
+        "waktu": "180"
+    })
+}
   module.exports = {
     handleLogin,
+    validasiRegister
   };
   

@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const loginController = require('./loginController');
+const authController = require('./authController');
 const berita = require('./beritaController');
 const leaderboard =require('./leaderboardController');
 const laporan = require('./laporanController');
@@ -18,6 +18,7 @@ const simulasi = require('./simulasiController');
 const notif = require('./notifController');
 const ptn = require('./ptnController');
 const log = require('./logController');
+const aturan = require('./aturanController');
 const app = express();
 const port = 3000;
 
@@ -25,7 +26,8 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Penanganan permintaan POST
-app.post('/login',loginController.handleLogin);
+app.post('/login',authController.handleLogin);
+app.post('/aturan',aturan.getaturan);
 app.post('/information',berita.getBerita);
 app.post('/information/daily',berita.getdailynews);
 app.post('/leaderboard',leaderboard.getLeaderboard);
@@ -37,6 +39,7 @@ app.post('/vak',laporan.getVak);
 app.post('/log',laporan.getLog);
 app.post('/presence/student',laporan.getPresensi);
 app.post('/getlaporankuis',laporan.getkuis);
+app.post('/profiling/laporanlulus',laporan.getGOA);
 app.post('/tryout/laporan/tryout',laporan.getTobk);
 app.post('/tryout/laporan/nilai',laporan.getNilaiTobk);
 app.post('/jadwal/siswa',JVcontroller.getjadwal);
