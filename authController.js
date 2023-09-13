@@ -13,7 +13,7 @@ const handleLogin = (req, res) => {
             "namaLengkap": "YAZID FAUZAN HARTONO",
             "idSekolahKelas": "15",
             "namaSekolahKelas": "12 SMA IPS",
-            "siapa": "ORANG TUA",
+            "siapa": "SISWA",
             "idKelas": "254562,266691",
             "namaKelas": "12-IPS-R-N-2202,12-IPA-R-N-B01",
             "jenisKelas": "REGULER NON SD",
@@ -383,8 +383,25 @@ const validasiRegister = (req,res)=>{
         "waktu": "180"
     })
 }
+const getwaktuserver=(req,res)=>{
+    const now = new Date();
+    const formattedTime = now.toISOString().replace(/T/, ' ').replace(/\.\d+Z$/, '');
+    res.json({
+        status:true, 
+        data: formattedTime });
+}
+const getImei =(req,res)=>{
+    res.json({
+        "status": true,
+        "data": {
+            "cImei": "6C86438C-4B47-424C-9B2F-FA7A15BA5089"
+        }
+    })
+}
   module.exports = {
     handleLogin,
-    validasiRegister
+    validasiRegister,
+    getwaktuserver,
+    getImei
   };
-  
+   

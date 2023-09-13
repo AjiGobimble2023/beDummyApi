@@ -8,8 +8,7 @@ const getBookmark=(req,res)=>{
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_matematika.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
                     "listBookmark": [],
                     "idKelompokUjian": "108",
-                    "namaKelompokUjian": "PENALARAN MATEMATIKA",
-                    "initial":'MTP'
+                    "namaKelompokUjian": "PENALARAN MATEMATIKA"
                 },
                 {
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_indo.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
@@ -48,8 +47,7 @@ const getBookmark=(req,res)=>{
                         }
                     ],
                     "idKelompokUjian": "109",
-                    "namaKelompokUjian": "LITERASI DALAM BAHASA INDONESIA",
-                    "initial":'BIP'
+                    "namaKelompokUjian": "LITERASI DALAM BAHASA INDONESIA"
                 },
                 {
                     "iconMapel": null,
@@ -72,8 +70,7 @@ const getBookmark=(req,res)=>{
                         }
                     ],
                     "idKelompokUjian": "13",
-                    "namaKelompokUjian": "TPS - PENGETAHUAN KUANTITATIF",
-                    "initial":'TPP'
+                    "namaKelompokUjian": "TPS - PENGETAHUAN KUANTITATIF"
                 },
                 {
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_matematika.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
@@ -96,8 +93,7 @@ const getBookmark=(req,res)=>{
                         }
                     ],
                     "idKelompokUjian": "2",
-                    "namaKelompokUjian": "MATEMATIKA WAJIB",
-                    "initial":'MWA'
+                    "namaKelompokUjian": "MATEMATIKA WAJIB"
                 },
                 {
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Ftps_pemahaman_membaca_dan_menulis.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
@@ -121,7 +117,6 @@ const getBookmark=(req,res)=>{
                     ],
                     "idKelompokUjian": "43",
                     "namaKelompokUjian": "TPS - PEMAHAMAN BACAAN DAN MENULIS",
-                    "initial":'TPB'
                 }
             ]
         }

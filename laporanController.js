@@ -309,16 +309,207 @@ const getkuis=(req,res)=>{
     res.json( {
         "status": true,
         "data": [
-          {
-            "cnamamapel": "Matematika",
-            "info": [
-              {"cKodeSoal": "SOAL001"},
-              {"cKodeSoal": "SOAL002"},
-              {"cKodeSoal": "SOAL003"}
-            ]
-          }
+            {
+                "cnamamapel": "BAHASA INDONESIA",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-636"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-238"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001163"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "BAHASA INGGRIS",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-293"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-292"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-216"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "BIOLOGI",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-001160"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-233"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001161"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001162"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-663"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "EKONOMI",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-280"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-281"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-282"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-210"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "FISIKA",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-637"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-231"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "GEOGRAFI",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-284"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-211"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-283"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-285"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "INFORMATIKA",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-245"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001164"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001165"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-662"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001166"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "KIMIA",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-001158"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001157"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001159"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-232"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-638"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "MATEMATIKA UMUM",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-001045"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001046"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-635"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001049"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001047"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001048"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001050"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-230"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-001051"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "SEJARAH",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-289"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-291"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-214"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-290"
+                    }
+                ]
+            },
+            {
+                "cnamamapel": "SOSIOLOGI",
+                "info": [
+                    {
+                        "cKodeSoal": "KUIS-287"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-288"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-215"
+                    },
+                    {
+                        "cKodeSoal": "KUIS-286"
+                    }
+                ]
+            }
         ]
-      });
+    });
 }
 const getTobk=(req,res)=>{
     res.json({
@@ -357,7 +548,7 @@ const getTobk=(req,res)=>{
                     "KEMAMPUAN PENALARAN UMUM": "0"
                 },
                 "link": "http://epb.ganeshaoperation.com/epb/?v=VG1wak5FOVRPREpPZW1jMVRHcEJNVTFFUlhoTlZFVjRUa1JqZDAxVE5YZGFSMWs5",
-                "isexists": true
+                "isexists": false
             },
             {
                 "kodeTOB": "7789",
@@ -910,6 +1101,131 @@ const getGOA=(req,res)=>{
         }
     })
 }
+const getJawabanquiz=(req,res)=>{
+    res.json(
+        {data : [
+            {
+                jenisProduk: "e-Kuis",
+                  kodePaket: "KUIS-230",
+                  idBundel: "17487",
+                  kodeBab: null,
+                  idSoal: "342905",
+                  nomorSoalDatabase: 5,
+                  nomorSoalSiswa: 5,
+                  idKelompokUjian: "111",
+                  namaKelompokUjian: "MATEMATIKA UMUM",
+                  tipeSoal: "PGB",
+                  tingkatKesulitan: 1,
+                  kesempatanMenjawab: null,
+                  jawabanSiswa: "A",
+                  kunciJawaban: "B",
+                  translatorEPB: null,
+                  kunciJawabanEPB: "B",
+                  jawabanSiswaEPB: "A",
+                  infoNilai: {fullcredit: 1, halfcredit: -1, zerocredit: 0},
+                  nilai: 1.0,
+                  isRagu: false,
+                  sudahDikumpulkan: true,
+                  lastUpdate: "2023-08-01 20:23:11"
+              },
+            {
+                jenisProduk: "e-Kuis",
+                  kodePaket: "KUIS-230",
+                  idBundel: "17487",
+                  kodeBab: null,
+                  idSoal: "342905",
+                  nomorSoalDatabase: 4,
+                  nomorSoalSiswa: 4,
+                  idKelompokUjian: "111",
+                  namaKelompokUjian: "MATEMATIKA UMUM",
+                  tipeSoal: "PGB",
+                  tingkatKesulitan: 2,
+                  kesempatanMenjawab: null,
+                  jawabanSiswa: "B",
+                  kunciJawaban: "B",
+                  translatorEPB: null,
+                  kunciJawabanEPB: "B",
+                  jawabanSiswaEPB: "B",
+                  infoNilai: {fullcredit: 1, halfcredit: -1, zerocredit: 0},
+                  nilai: 1.0,
+                  isRagu: false,
+                  sudahDikumpulkan: true,
+                  lastUpdate: "2023-08-01 20:23:11"
+              },
+            {
+                jenisProduk: "e-Kuis",
+                  kodePaket: "KUIS-230",
+                  idBundel: "17487",
+                  kodeBab: null,
+                  idSoal: "342905",
+                  nomorSoalDatabase: 3,
+                  nomorSoalSiswa: 3,
+                  idKelompokUjian: "111",
+                  namaKelompokUjian: "MATEMATIKA UMUM",
+                  tipeSoal: "PGB",
+                  tingkatKesulitan: 3,
+                  kesempatanMenjawab: null,
+                  jawabanSiswa: "B",
+                  kunciJawaban: "B",
+                  translatorEPB: null,
+                  kunciJawabanEPB: "B",
+                  jawabanSiswaEPB: "B",
+                  infoNilai: {fullcredit: 1, halfcredit: -1, zerocredit: 0},
+                  nilai: 1.0,
+                  isRagu: false,
+                  sudahDikumpulkan: true,
+                  lastUpdate: "2023-08-01 20:23:11"
+              },
+      {
+        jenisProduk: "e-Kuis",
+          kodePaket: "KUIS-230",
+          idBundel: "17487",
+          kodeBab: null,
+          idSoal: "342905",
+          nomorSoalDatabase: 2,
+          nomorSoalSiswa: 2,
+          idKelompokUjian: "111",
+          namaKelompokUjian: "MATEMATIKA UMUM",
+          tipeSoal: "PGB",
+          tingkatKesulitan: 1,
+          kesempatanMenjawab: null,
+          jawabanSiswa: "B",
+          kunciJawaban: "B",
+          translatorEPB: null,
+          kunciJawabanEPB: "B",
+          jawabanSiswaEPB: "B",
+          infoNilai: {fullcredit: 1, halfcredit: -1, zerocredit: 0},
+          nilai: 1.0,
+          isRagu: false,
+          sudahDikumpulkan: true,
+          lastUpdate: "2023-08-01 20:23:11"
+      },
+      {
+        jenisProduk: "e-Kuis",
+          kodePaket: "KUIS-230",
+          idBundel: "17487",
+          kodeBab: null,
+          idSoal: "342905",
+          nomorSoalDatabase: 1,
+          nomorSoalSiswa: 1,
+          idKelompokUjian: "111",
+          namaKelompokUjian: "MATEMATIKA UMUM",
+          tipeSoal: "PGB",
+          tingkatKesulitan: 2,
+          kesempatanMenjawab: null,
+          jawabanSiswa: "B",
+          kunciJawaban: "B",
+          translatorEPB: null,
+          kunciJawabanEPB: "B",
+          jawabanSiswaEPB: "B",
+          infoNilai: {fullcredit: 1, halfcredit: -1, zerocredit: 0},
+          nilai: 1.0,
+          isRagu: false,
+          sudahDikumpulkan: true,
+          lastUpdate: "2023-08-01 20:23:11"
+      }
+    ]});
+}
 module.exports={
     getVak,
     getLog,
@@ -917,5 +1233,6 @@ module.exports={
     getkuis,
     getTobk,
     getNilaiTobk,
-    getGOA
+    getGOA,
+    getJawabanquiz
 }

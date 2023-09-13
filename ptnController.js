@@ -1516,10 +1516,14 @@ const getpilihan=(req,res)=>{
         }
     })
 }
+const simpanPilihan=(req,res)=>{
+    res.json({status: true, message: "Data pilihan berhasil disimpan"})
+}
 
 module.exports={
     getUnive,
     getJurusan,
     getDetai,
-    getpilihan
+    getpilihan,
+    simpanPilihan
 }

@@ -19,6 +19,7 @@ const notif = require('./notifController');
 const ptn = require('./ptnController');
 const log = require('./logController');
 const aturan = require('./aturanController');
+const profile = require('./profilecontroller');
 const app = express();
 const port = 3000;
 
@@ -27,6 +28,9 @@ app.use(bodyParser.json());
 
 // Penanganan permintaan POST
 app.post('/login',authController.handleLogin);
+app.post('/auth/imei',authController.getImei);
+app.post('/auth/registrasi/validasi',authController.validasiRegister);
+app.post('/data/waktuserver',authController.getwaktuserver);
 app.post('/aturan',aturan.getaturan);
 app.post('/information',berita.getBerita);
 app.post('/information/daily',berita.getdailynews);
@@ -39,6 +43,7 @@ app.post('/vak',laporan.getVak);
 app.post('/log',laporan.getLog);
 app.post('/presence/student',laporan.getPresensi);
 app.post('/getlaporankuis',laporan.getkuis);
+app.post('/getlaporankuis/:kodeQuiz',laporan.getJawabanquiz);
 app.post('/profiling/laporanlulus',laporan.getGOA);
 app.post('/tryout/laporan/tryout',laporan.getTobk);
 app.post('/tryout/laporan/nilai',laporan.getNilaiTobk);
@@ -69,6 +74,8 @@ app.post('/bukusoal/paket/timer/:idJenisProduk',bukusoal.getDaftarPaketTo2);
 app.post('/tryout/syarat/:kodeTOB/:noRegistrasi',bukusoal.cekBolehTO);
 app.post('/bukusoal/prasyarat/:kodePaket',bukusoal.getSyaratTO);
 app.post('/bukusoal/paket/basic/:idJenisProduk',bukusoal.getDaftarPaketbasic);
+app.post('/bukusoal/simpanjawabanV2',bukusoal.simpanJawaban);
+app.post('/bukusoal/hasil/:jenisHasil/:kodePaket/:idSekolahKelas/:noRegistrasi',bukusoal.gethasil);
 app.post('/feedback/question',feedback.getQuetion);
 app.post('/presence/getkehadiran',presensi.getPresensi);
 app.post('/pembayaran/info',pembayaran.getPembayaran);
@@ -80,8 +87,14 @@ app.post('/ptn/universitas',ptn.getUnive);
 app.post('/ptn/jurusan',ptn.getJurusan);
 app.post('/ptn/jurusan/detail',ptn.getDetai);
 app.post('/ptn/pilihan',ptn.getpilihan);
+app.post('/simulasi/pilihan/simpan',ptn.simpanPilihan);
 app.post('/notif',notif.getnotif);
 app.post('/2210/log/save',log.setLog);
+app.post('/version',log.getVersion);
+app.post('/auth/tahun_ajaran',log.getTahunAjaran);
+app.post('/tryout/getmapelpilihan',profile.getMapelpilihan);
+app.post('/profile/url/:noRegistrasi',profile.getFotoProfile);
+
 
 
 // Menjalankan server

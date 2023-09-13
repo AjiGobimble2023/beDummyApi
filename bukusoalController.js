@@ -705,8 +705,7 @@ const cekBolehTO=(req,res)=>{
                     "c_JumlahSoal": 4,
                     "c_JumlahBenar": 0,
                     "c_JumlahSalah": 0,
-                    "c_IsBoleh": true,
-                    "BolehInt": "1"
+                    "c_IsBoleh": false
                 },
                 {
                     "c_KodeTOB": "16774",
@@ -714,8 +713,7 @@ const cekBolehTO=(req,res)=>{
                     "c_JumlahSoal": 4,
                     "c_JumlahBenar": 0,
                     "c_JumlahSalah": 0,
-                    "c_IsBoleh": true,
-                    "BolehInt": "1"
+                    "c_IsBoleh": false
                 },
                 {
                     "c_KodeTOB": "16775",
@@ -723,8 +721,7 @@ const cekBolehTO=(req,res)=>{
                     "c_JumlahSoal": 4,
                     "c_JumlahBenar": 0,
                     "c_JumlahSalah": 0,
-                    "c_IsBoleh": true,
-                    "BolehInt": "1"
+                    "c_IsBoleh": false
                 }
     ]
     }
@@ -1029,6 +1026,32 @@ const getKisikisi=(req,res)=>{
         ]
     });
 }
+const simpanJawaban=(req,res)=>{
+    res.json({
+        "status": true,
+        "message": "Hasil berhasil disimpan"
+    })
+}
+const gethasil=(req,res)=>{
+    res.json({
+        "status": true,
+        "message": "Data Hasil ditemukan",
+        "data": [
+            {
+                "benar": 1,
+                "salah": 1,
+                "kosong": 0,
+                "namaKelompokUjian": "Kemampuan Memahami Bacaan dan Menulis"
+            },
+            {
+                "benar": 2,
+                "salah": 0,
+                "kosong": 0,
+                "namaKelompokUjian": "KEMAMPUAN PENALARAN UMUM"
+            }
+        ]
+    })
+}
 module.exports={
     getDaftarBundel,
     getDaftarBab,
@@ -1041,5 +1064,7 @@ module.exports={
     cekBolehTO,
     getDaftarPaketTo,
     getDaftarPaketTo2,
-    getKisikisi
+    getKisikisi,
+    simpanJawaban,
+    gethasil
 }

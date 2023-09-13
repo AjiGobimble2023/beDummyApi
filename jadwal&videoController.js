@@ -470,9 +470,17 @@ const getstandbyTst=(req,res)=>{
         ]
     })
 }
+const getVideoTeaser=(req,res)=>{
+    res.json({
+        "status": true,
+        "message": "Data Video ditemukan",
+        "data": "http://streaming.ganeshaoperation.com/index.php?v=Wkcxc2ExcFhPVEJhVjBaNldsaEpkazlFUVhwT1ZHTjRUbXBvYkZsNldYZFBWRnB0VGxkT2FVMVhVWHBPVjBWM1RVZFplbGxYVm1sT1JFVjFZbGhCTUE9PQ=="
+    })
+}
 module.exports={
     getjadwal,
     getvideobab,
     getvideomapel,
-    getstandbyTst
+    getstandbyTst,
+    getVideoTeaser
 }
