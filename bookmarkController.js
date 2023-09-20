@@ -8,7 +8,8 @@ const getBookmark=(req,res)=>{
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_matematika.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
                     "listBookmark": [],
                     "idKelompokUjian": "108",
-                    "namaKelompokUjian": "PENALARAN MATEMATIKA"
+                    "namaKelompokUjian": "PENALARAN MATEMATIKA",
+                    "initial":"Mtk"
                 },
                 {
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_indo.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
@@ -47,7 +48,8 @@ const getBookmark=(req,res)=>{
                         }
                     ],
                     "idKelompokUjian": "109",
-                    "namaKelompokUjian": "LITERASI DALAM BAHASA INDONESIA"
+                    "namaKelompokUjian": "LITERASI DALAM BAHASA INDONESIA",
+                    "initial":"PK"
                 },
                 {
                     "iconMapel": null,
@@ -70,7 +72,8 @@ const getBookmark=(req,res)=>{
                         }
                     ],
                     "idKelompokUjian": "13",
-                    "namaKelompokUjian": "TPS - PENGETAHUAN KUANTITATIF"
+                    "namaKelompokUjian": "TPS - PENGETAHUAN KUANTITATIF",
+                    "initial":"OK"
                 },
                 {
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_matematika.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",

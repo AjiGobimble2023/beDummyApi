@@ -15,7 +15,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp"
             },
             {
                 "c_IdBundel": "18361",
@@ -29,7 +30,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "18374",
@@ -43,7 +45,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "18376",
@@ -57,7 +60,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "18379",
@@ -71,7 +75,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "18367",
@@ -85,7 +90,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "18362",
@@ -99,7 +105,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "5",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "14",
-                "jenis": "teaser"
+                "jenis": "teaser",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17378",
@@ -113,7 +120,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "886",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17377",
@@ -127,7 +135,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "665",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17780",
@@ -141,7 +150,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "529",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "18883",
@@ -155,7 +165,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "550",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17376",
@@ -169,7 +180,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "1085",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17369",
@@ -183,7 +195,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "606",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17374",
@@ -197,7 +210,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "819",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17371",
@@ -211,7 +225,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "906",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17460",
@@ -225,7 +240,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "370",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17375",
@@ -239,7 +255,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "1376",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17381",
@@ -253,7 +270,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "460",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17380",
@@ -267,7 +285,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "260",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17379",
@@ -281,7 +300,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "240",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17923",
@@ -295,7 +315,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "530",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17663",
@@ -309,7 +330,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "739",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17373",
@@ -323,7 +345,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "529",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "c_IdBundel": "17372",
@@ -337,7 +360,8 @@ const getDaftarBundel=(req,res)=>{
                 "c_JumlahSoal": "529",
                 "c_OpsiUrut": "Bab",
                 "idSekolahKelas": "41",
-                "jenis": "reguler"
+                "jenis": "reguler",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             }
         ]
     })
@@ -399,7 +423,7 @@ const getSoal=(req,res)=>{
                 "c_Soal": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1) Bahasa merupakan satu di antara hasil budaya manusia yang sangat tinggi nilainya. (2) Tidak dapat dibayangkan jika dalam seluruh kegiatan manusia tidak menggunakan bahasa. (3) Misalnya, ketika membeli sesuatu di toko, meminta atau memberikan informasi, menyatakan cinta atau memarahi seseorang, manusia memerlukan bahasa. (4) Tidak dapat dibayangkan bagaimana wujud tingkah laku manusia tanpa kehadiran bahasa untuk berinteraksi dengan sesamanya. (5) Bahasa menjadi sangat penting karena melalui bahasa manusia dapat berkembang. (6) Bagi manusia, bahasa menjadi media abstraksi berbagai gejala yang muncul di lingkungannya. (7) Hal tersebut menggambarkan betapa penting peran bahasa dalam kehidupan sosial manusia. (8) Komunikasi akan berjalan dengan lancar apabila bahasa yang digunakan tepat. (9) Artinya, bahasa itu dipergunakan sesuai dengan situasi dan kondisi penutur serta sifat penuturan itu dilaksanakan. (10) Hal <em>itu</em> sangat bergantung pada faktor-faktor penentu dalam tindak bahasa atau tindak komunikasi, yaitu lawan bicara, tujuan pembicaraan, masalah yang dibicarakan, atau situasi pembicaraan. (11) Pengguna bahasa yang sesuai dengan situasi dan kondisi peristiwa tindak bahasa disebut berbahasa secara pragmatik.<br></p><p><br></p><p>Apakah judul yang tepat untuk teks tersebut?<br></p>",
                 "c_Opsi": "{\"opsi\": {\"A\": {\"text\": \"Pentingnya Penguasaan Bahasa bagi Manusia\", \"bobot\": 0}, \"B\": {\"text\": \"Peran Bahasa dalam Hubungan Sosial\", \"bobot\": 100}, \"C\": {\"text\": \"Pentingnya Kaidah Sosial dalam Berbahasa\", \"bobot\": 0}, \"D\": {\"text\": \"Faktor Penentu dalam Tindak Bahasa\", \"bobot\": 0}, \"E\": {\"text\": \"Media Abstraksi di Berbagai Lingkungan\", \"bobot\": 0}}, \"nilai\": {\"fullcredit\": 1, \"halfcredit\": -1, \"zerocredit\": 0}}",
                 "c_IdWacana": null,
-                "c_TipeSoal": "PGB",
+                "c_TipeSoal": "PBKT",
                 "c_TingkatKesulitan": "3",
                 "c_NomorSoal": "1",
                 "c_IdVideo": null,
@@ -518,7 +542,6 @@ const getDaftarSoalTO=(req,res)=>{
     res.json({
         "status": true,
         "message": "Daftar Soal Paket ditemukan",
-        "waktu":"60",
         "data": [
             {
                 "wacana": "",
@@ -587,23 +610,36 @@ const getDaftarSoalTO=(req,res)=>{
 }
 const getSyaratTO=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data TOBK bersyarat ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data found",
+            "status": "success"
+        },
         "data": [
             {
-                "c_KodeTOB": "15737",
-                "c_NamaTOB": "TOBK UJI COBA TIM BTI 12 IPA",
-                "jenisTOB": "UTBK",
-                "tanggalMulai": "2023-07-25 15:22:35",
-                "tanggalBerakhir": "2023-08-30 23:59:00",
-                "jarakAntarPaket": "1",
-                "isTOMerdeka": "0",
-                "isBersyarat": "1",
+                "kode_tob": 16759,
+                "nama_tob": "TOBK AGUSTUS 3 SD K13 REV SMT 1 TP.2324",
+                "jenis_tob": "Ujian_Sekolah",
+                "tanggal_mulai": "2023-08-14 00:00:00",
+                "tanggal_selesai": "2023-09-20 23:59:59",
+                "jarak_antar_paket": 5,
+                "isKurikulumMerdeka": false,
+                "isbersyarat": false,
+                "jenis": "reguler"
+            },
+            {
+                "kode_tob": 16918,
+                "nama_tob": "TOBK AGUSTUS 6 SD KM SMT 1 TP.2324 UC",
+                "jenis_tob": "Ujian_Sekolah",
+                "tanggal_mulai": "2023-08-10 13:27:46",
+                "tanggal_selesai": "2023-08-10 14:24:00",
+                "jarak_antar_paket": 1,
+                "isKurikulumMerdeka": false,
+                "isbersyarat": false,
                 "jenis": "reguler"
             }
         ]
-    }
-    )
+    })
 }
 const getDaftarPaketbasic=(req,res)=>{
     res.json({
@@ -619,7 +655,7 @@ const getDaftarPaketbasic=(req,res)=>{
                 "c_IsBlockingTime": "0",
                 "idSekolahKelas": "41",
                 "tanggalBerlaku": "2023-09-04 00:00:00",
-                "tanggalKedaluwarsa": "2023-09-10 23:59:00",
+                "tanggalKedaluwarsa": "2023-09-19 23:59:00",
                 "totalWaktu": "50",
                 "jumlahSoal": "10",
                 "jenis": "reguler"
@@ -633,7 +669,7 @@ const getDaftarPaketbasic=(req,res)=>{
                 "c_IsBlockingTime": "0",
                 "idSekolahKelas": "41",
                 "tanggalBerlaku": "2023-09-04 00:00:00",
-                "tanggalKedaluwarsa": "2023-09-10 23:59:00",
+                "tanggalKedaluwarsa": "2023-09-19 23:59:00",
                 "totalWaktu": "30",
                 "jumlahSoal": "6",
                 "jenis": "reguler"
@@ -647,7 +683,7 @@ const getDaftarPaketbasic=(req,res)=>{
                 "c_IsBlockingTime": "0",
                 "idSekolahKelas": "41",
                 "tanggalBerlaku": "2023-09-04 00:00:00",
-                "tanggalKedaluwarsa": "2023-09-10 23:59:00",
+                "tanggalKedaluwarsa": "2023-09-19 23:59:00",
                 "totalWaktu": "30",
                 "jumlahSoal": "6",
                 "jenis": "reguler"
@@ -662,26 +698,26 @@ const getDaftarTOB=(req,res)=>{
         "message": "Data Try Out ditemukan",
         "data": [
             {
-                "c_KodeTOB": "17053",
-                "c_NamaTOB": "TOBK SEPTEMBER 12 IPA K13R",
-                "jenisTOB": "UTBK",
-                "tanggalMulai": "2023-09-04 00:00:00",
-                "tanggalBerakhir": "2023-09-10 23:59:00",
-                "jarakAntarPaket": "5",
-                "isTOMerdeka": "0",
-                "isBersyarat": "1",
-                "jenis": "reguler"
+                "kode_tob": 16759,
+                "nama_tob": "TOBK AGUSTUS 3 SD K13 REV SMT 1 TP.2324",
+                "jenis_tob": "Ujian_Sekolah",
+                "tanggal_mulai": "2023-08-14 00:00:00.000",
+                "tanggal_selesai": "2023-20-20 23:59:59.000",
+                "jarak_antar_paket": 5,
+                "isKurikulumMerdeka": false,
+                "jenis": "reguler",
+                "isbersyarat": true
             },
             {
-                "c_KodeTOB": "17056",
-                "c_NamaTOB": "TOBK SEPTEMBER 12 SMA K MERDEKA",
-                "jenisTOB": "UTBK",
-                "tanggalMulai": "2023-09-04 00:00:00",
-                "tanggalBerakhir": "2023-09-10 23:59:00",
-                "jarakAntarPaket": "5",
-                "isTOMerdeka": "0",
-                "isBersyarat": "1",
-                "jenis": "reguler"
+                "kode_tob": 16918,
+                "nama_tob": "TOBK AGUSTUS 6 SD KM SMT 1 TP.2324 UC",
+                "jenis_tob": "Ujian_Sekolah",
+                "tanggal_mulai": "2023-08-10 13:27:46.000",
+                "tanggal_selesai": "2023-08-10 14:24:00.000",
+                "jarak_antar_paket": 1,
+                "isKurikulumMerdeka": false,
+                "jenis": "reguler",
+                "isbersyarat": true
             }
     ]
     }
@@ -693,7 +729,7 @@ const cekBolehTO=(req,res)=>{
         "message": "Kamu tidak bisa mengerjakan TOBK UJI COBA TIM BTI 12 IPA, karena tidak memenuhi persyaratan Empati Wajib",
         "data": {
             "isLulus": true,
-            "sudahMengerjakan": true,
+            "sudahMengerjakan": false,
             "jumlahBenar": 1,
             "jumlahSalah": 8,
             "jumlahKosong": 47,
@@ -742,8 +778,8 @@ const getDaftarPaketTo=(req,res)=>{
                 "c_Deskripsi": "TOBK UM UGM KE-1 TA 22/23_TPA",
                 "nomorUrut": "1",
                 "isBlockingTime": "0",
-                "totalWaktu": "60",
-                "jumlahSoal": "60",
+                "totalWaktu": "30",
+                "jumlahSoal": "6",
                 "isRandom": "0",
                 "isSelesai": "n",
                 "isPernahMengerjakan": "n",
@@ -756,7 +792,8 @@ const getDaftarPaketTo=(req,res)=>{
                 "cPilihanSiswa": null,
                 "cFlag": null,
                 "waktuHabis": "n",
-                "isWajib": "1"
+                "isWajib": "1",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             },
             {
                 "kodeTOB": "13680",
@@ -782,7 +819,8 @@ const getDaftarPaketTo=(req,res)=>{
                 "cPilihanSiswa": null,
                 "cFlag": null,
                 "waktuHabis": "n",
-                "isWajib": "1"
+                "isWajib": "1",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/tps_pemahaman_membaca_dan_menulis.webp"
             }
     ]
     }
@@ -813,7 +851,10 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "initial":"mkt",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp",
+                "namaKelompokUjian":"MATEMATIKA SAINTEK"
             },
             {
                 "kodeTOB": "17945",
@@ -835,7 +876,9 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp",
+                "namaKelompokUjian":"MATEMATIKA SAINTEK"
             },
             {
                 "kodeTOB": "17145",
@@ -857,7 +900,9 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp",
+                "namaKelompokUjian":"MATEMATIKA SAINTEK"
             },
             {
                 "kodeTOB": "16819",
@@ -879,7 +924,10 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "initial":"mkt",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp",
+                "namaKelompokUjian":"MATEMATIKA SAINTEK"
             },
             {
                 "kodeTOB": "16305",
@@ -901,7 +949,9 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "initial":"mkt",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp"
             },
             {
                 "kodeTOB": "15921",
@@ -923,7 +973,9 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "initial":"mkt",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp"
             },
             {
                 "kodeTOB": "15208",
@@ -945,7 +997,9 @@ const getDaftarPaketTo2=(req,res)=>{
                 "tanggalDeadline": "-",
                 "tanggalMengumpulkan": "-",
                 "merk": "Unknown",
-                "waktuHabis": "n"
+                "waktuHabis": "n",
+                "initial":"mkt",
+                "iconMapel":"https://dltvxpypx9f25.cloudfront.net/mapel/mapel_akm.webp"
             }
         ]
     })

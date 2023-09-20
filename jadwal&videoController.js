@@ -442,11 +442,7 @@ const getstandbyTst=(req,res)=>{
         "message": "Jadwal berhasil ditemukan",
         "data": [
             {
-                "date": "2023-09-05",
-                "teachers": []
-            },
-            {
-                "date": "2023-09-06",
+                "date": "2023-09-16",
                 "teachers": [
                     {
                         "teacher": "Rayhan Hudan Satrio",
@@ -459,14 +455,19 @@ const getstandbyTst=(req,res)=>{
                                 "activity": "TST Super",
                                 "start": "14:30",
                                 "finish": "16:30",
-                                "isTST": false,
+                                "isTST": true,
                                 "available": true,
-                                "registered": "SUDAH"
+                                "registered": "Belum"
                             }
                         ]
                     }
                 ]
-            }
+            },
+            {
+                "date": "2023-09-17",
+                "teachers": []
+            },
+            
         ]
     })
 }

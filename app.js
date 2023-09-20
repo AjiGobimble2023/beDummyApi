@@ -25,6 +25,8 @@ const port = 3000;
 
 // Middleware untuk parsing body permintaan POST
 app.use(bodyParser.json());
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 // Penanganan permintaan POST
 app.post('/login',authController.handleLogin);

@@ -1,5 +1,4 @@
 const getaturan=(req,res)=>{
-    console.log('ok');
     res.json({
         "status": true,
         "message": "Berhasil didapatkan",
