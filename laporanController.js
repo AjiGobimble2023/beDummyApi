@@ -1,7 +1,10 @@
 const getVak =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "VAK ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "nis": "050111114701",
             "visual": "15",
@@ -20,14 +23,17 @@ const getVak =(req,res)=>{
 }
 const getLog=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Aktivitas ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "id": "050111114701",
                 "menu": "Buku Teori",
                 "detail": "BAHASA INDONESIA, Teks Cerita Sejarah/ Rekon",
-                "masuk": "2023-09-05 14:04:28",
+                "masuk": "2023-09-06 14:04:28",
                 "keluar": null
             },
             {
@@ -189,8 +195,11 @@ const getLog=(req,res)=>{
 }
 const getPresensi=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mendapatkan presensi",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "date": "2023-08-28",
@@ -307,7 +316,11 @@ const getPresensi=(req,res)=>{
 }
 const getkuis=(req,res)=>{
     res.json( {
-        "status": true,
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "cnamamapel": "BAHASA INDONESIA",
@@ -513,6 +526,11 @@ const getkuis=(req,res)=>{
 }
 const getTobk=(req,res)=>{
     res.json({
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "kodeTOB": "6789",
@@ -702,203 +720,16 @@ const getTobk=(req,res)=>{
             }
         ],
         "status": true,
-        "message": {
-            "result": true,
-            "data": [
-                {
-                    "kodeTOB": "6789",
-                    "namaTOB": "TOBK SUPER INTENSIF KE-1",
-                    "penilaian": "IRT",
-                    "tanggalAkhir": "2023-04-10 23:59:00",
-                    "tampilSolusi": "1",
-                    "info": [
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI BANDUNG",
-                            "jurusan": "SEKOLAH TEK. ELEKTRO & INFORMATIKA (STEI)",
-                            "pg": 689.24000000000001,
-                            "nilai": 452
-                        },
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
-                            "jurusan": "DESAIN PRODUK INDUSTRI",
-                            "pg": 594.20000000000005,
-                            "nilai": 452
-                        }
-                    ],
-                    "listNilai": {
-                        "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM": "472",
-                        "Kemampuan Memahami Bacaan dan Menulis": "585",
-                        "PENALARAN MATEMATIKA": "296",
-                        "LITERASI DALAM BAHASA INDONESIA": "567",
-                        "LITERASI DALAM BAHASA INGGRIS": "313",
-                        "PENGETAHUAN KUANTITATIF": "975",
-                        "KEMAMPUAN PENALARAN UMUM": "0"
-                    },
-                    "link": "http://epb.ganeshaoperation.com/epb/?v=VG1wak5FOVRPREpPZW1jMVRHcEJNVTFFUlhoTlZFVjRUa1JqZDAxVE5YZGFSMWs5",
-                    "isexists": true
-                },
-                {
-                    "kodeTOB": "7789",
-                    "namaTOB": "TOBK SUPER INTENSIF KE-3",
-                    "penilaian": "IRT",
-                    "tanggalAkhir": "2023-04-17 23:59:00",
-                    "tampilSolusi": "1",
-                    "info": [
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI BANDUNG",
-                            "jurusan": "SEKOLAH TEK. ELEKTRO & INFORMATIKA (STEI)",
-                            "pg": 689.24000000000001,
-                            "nilai": 208.44999999999999
-                        },
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
-                            "jurusan": "DESAIN PRODUK INDUSTRI",
-                            "pg": 594.20000000000005,
-                            "nilai": 208.44999999999999
-                        }
-                    ],
-                    "listNilai": {
-                        "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM": "284",
-                        "Kemampuan Memahami Bacaan dan Menulis": "273",
-                        "PENALARAN MATEMATIKA": null,
-                        "LITERASI DALAM BAHASA INDONESIA": null,
-                        "LITERASI DALAM BAHASA INGGRIS": null,
-                        "PENGETAHUAN KUANTITATIF": "309",
-                        "KPU - PENALARAN DEDUKTIF": "548",
-                        "KPU - PENALARAN INDUKTIF": "705",
-                        "KPU - PENALARAN KUANTITATIF": "318",
-                        "KEMAMPUAN PENALARAN UMUM": "0"
-                    },
-                    "link": "http://epb.ganeshaoperation.com/epb/?v=VG5wak5FOVRPRE5PZW1jMVRHcEJNVTFFUlhoTlZFVjRUa1JqZDAxVE5YZGFSMWs5",
-                    "isexists": true
-                },
-                {
-                    "kodeTOB": "10535",
-                    "namaTOB": "TOBK SUPER INTENSIF KE-6",
-                    "penilaian": "IRT",
-                    "tanggalAkhir": "2023-05-10 23:59:00",
-                    "tampilSolusi": "1",
-                    "info": [
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI BANDUNG",
-                            "jurusan": "SEKOLAH TEK. ELEKTRO & INFORMATIKA (STEI)",
-                            "pg": 689.24000000000001,
-                            "nilai": 356.75
-                        },
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
-                            "jurusan": "DESAIN PRODUK INDUSTRI",
-                            "pg": 594.20000000000005,
-                            "nilai": 356.75
-                        }
-                    ],
-                    "listNilai": {
-                        "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM": "728",
-                        "Kemampuan Memahami Bacaan dan Menulis": "705",
-                        "PENALARAN MATEMATIKA": "0",
-                        "LITERASI DALAM BAHASA INDONESIA": "443",
-                        "LITERASI DALAM BAHASA INGGRIS": "0",
-                        "PENGETAHUAN KUANTITATIF": "0",
-                        "KPU - PENALARAN DEDUKTIF": "0",
-                        "KPU - PENALARAN INDUKTIF": "0",
-                        "KPU - PENALARAN KUANTITATIF": "0",
-                        "KEMAMPUAN PENALARAN UMUM": "650"
-                    },
-                    "link": "http://epb.ganeshaoperation.com/epb/?v=VFZSQk1VMTZWWFpOVkVFeFRYcFZkVTFFVlhkTlZFVjRUVlJGTUU1NlFYaE1ia0pyV21jOVBRPT0=",
-                    "isexists": true
-                },
-                {
-                    "kodeTOB": "15295",
-                    "namaTOB": "TOBK NASIONAL 2023",
-                    "penilaian": "IRT",
-                    "tanggalAkhir": "2023-07-30 23:59:00",
-                    "tampilSolusi": "1",
-                    "info": [
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI BANDUNG",
-                            "jurusan": "SEKOLAH TEK. ELEKTRO & INFORMATIKA (STEI)",
-                            "pg": 689.24000000000001,
-                            "nilai": 724.5
-                        },
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
-                            "jurusan": "DESAIN PRODUK INDUSTRI",
-                            "pg": 594.20000000000005,
-                            "nilai": 724.5
-                        }
-                    ],
-                    "listNilai": {
-                        "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM": "573",
-                        "Kemampuan Memahami Bacaan dan Menulis": "546",
-                        "PENALARAN MATEMATIKA": "1000",
-                        "LITERASI DALAM BAHASA INDONESIA": "578",
-                        "LITERASI DALAM BAHASA INGGRIS": "464",
-                        "PENGETAHUAN KUANTITATIF": "911",
-                        "KEMAMPUAN PENALARAN UMUM": "772"
-                    },
-                    "link": "http://epb.ganeshaoperation.com/epb/?v=VFZSVmVVOVVWWFpOVkZWNVQxUlZkVTFFVlhkTlZFVjRUVlJGTUU1NlFYaE1ia0pyV21jOVBRPT0=",
-                    "isexists": true
-                },
-                {
-                    "kodeTOB": "15296",
-                    "namaTOB": "TOBK Nasional 2023",
-                    "penilaian": "IRT",
-                    "tanggalAkhir": "2023-07-30 23:59:59",
-                    "tampilSolusi": "1",
-                    "info": [
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI BANDUNG",
-                            "jurusan": "SEKOLAH TEK. ELEKTRO & INFORMATIKA (STEI)",
-                            "pg": 689.24000000000001,
-                            "nilai": 721.95000000000005
-                        },
-                        {
-                            "kelompok": "0301",
-                            "namakelompok": "SAINTEK",
-                            "ptn": "INSTITUT TEKNOLOGI SEPULUH NOPEMBER",
-                            "jurusan": "DESAIN PRODUK INDUSTRI",
-                            "pg": 594.20000000000005,
-                            "nilai": 721.95000000000005
-                        }
-                    ],
-                    "listNilai": {
-                        "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM": "570",
-                        "Kemampuan Memahami Bacaan dan Menulis": "577",
-                        "PENALARAN MATEMATIKA": "801",
-                        "LITERASI DALAM BAHASA INDONESIA": "767",
-                        "LITERASI DALAM BAHASA INGGRIS": "814",
-                        "PENGETAHUAN KUANTITATIF": "1000",
-                        "KEMAMPUAN PENALARAN UMUM": "544"
-                    },
-                    "link": "http://epb.ganeshaoperation.com/epb/?v=VFZSVmVVOVVXWFpOVkZWNVQxUlpkVTFFVlhkTlZFVjRUVlJGTUU1NlFYaE1ia0pyV21jOVBRPT0=",
-                    "isexists": true
-                }
-            ]
-        }
+        "message": "Data Berhasil Di dapatkan"
     });
 }
 const getNilaiTobk=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data nilai siswa ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "pilihan": [
                 {
@@ -1002,8 +833,11 @@ const getNilaiTobk=(req,res)=>{
 }
 const getGOA=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Bab ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "jumRemedial": 1,
             "hasil": [

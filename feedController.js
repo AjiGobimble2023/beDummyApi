@@ -1,7 +1,10 @@
 const getfeed=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mengambil feed",
+        "meta": {
+            "code": 200,
+            "message": "Data Feed ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "info": {
                 "lastIndex": 2,
@@ -38,8 +41,11 @@ const getfeed=(req,res)=>{
 }
 const getcommentfeed=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mendapatkan data komentar",
+        "meta": {
+            "code": 200,
+            "message": "Data Komentar ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "feedId": "31525",
@@ -60,8 +66,11 @@ const getcommentfeed=(req,res)=>{
 }
 const addcommentfeed=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil menyimpan komentar"
+        "meta": {
+            "code": 200,
+            "message": "Berhasil Menyimpan Komentar",
+            "status": "Ok"
+        },
     })
 }
 

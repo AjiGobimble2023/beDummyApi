@@ -1,7 +1,10 @@
 const getPresensi=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "jumhadir": "2",
             "jumharus": "3"

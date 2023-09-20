@@ -1,13 +1,16 @@
 // loginController.js
 const handleLogin = (req, res) => {
-    const requestData = req.body;
+    const requestData = req.Date;
       // Lakukan apa pun yang ingin Anda lakukan dengan data yang diterima
       console.log('Data yang diterima:', requestData);
     
       // Mengirimkan respons kembali dengan data yang diterima
       res.json({
-        "status": true,
-        "message": "Berhasil masuk",
+        "meta": {
+            "code": 200,
+            "message": "Data pilihan PTN berhasil ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "noRegistrasi": "040916026101",
             "namaLengkap": "YAZID FAUZAN HARTONO",
@@ -351,8 +354,11 @@ const handleLogin = (req, res) => {
 }
 const validasiRegister = (req,res)=>{
     res.json({
-        "status": true,
-        "message": "Silahkan input OTP",
+        "meta": {
+            "code": 200,
+            "message": "Silahkan Input OTP",
+            "status": "Ok"
+        },
         "data": {
             "noRegistrasi": "981123000001",
             "namaLengkap": "RAHMAD FARIZAN",
@@ -387,21 +393,40 @@ const getwaktuserver=(req,res)=>{
     const now = new Date();
     const formattedTime = now.toISOString().replace(/T/, ' ').replace(/\.\d+Z$/, '');
     res.json({
-        status:true, 
+        "meta": {
+            "code": 200,
+            "message": "Data waktu ditemukan",
+            "status": "Ok"
+        }, 
         data: formattedTime });
 }
 const getImei =(req,res)=>{
     res.json({
-        "status": true,
+        "meta": {
+            "code": 200,
+            "message": "Data imei ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "cImei": "6C86438C-4B47-424C-9B2F-FA7A15BA5089"
         }
+    })
+}
+const refreshtoken = (req,res)=>{
+    res.json({
+        data: "YGfdsk3452355mj56uy",
+        "meta": {
+            "code": 200,
+            "message": "Data Token ditemukan",
+            "status": "Ok"
+        },
     })
 }
   module.exports = {
     handleLogin,
     validasiRegister,
     getwaktuserver,
-    getImei
+    getImei,
+    refreshtoken
   };
    

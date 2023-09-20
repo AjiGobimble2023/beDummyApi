@@ -1,7 +1,10 @@
 const getQuetion=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Pertanyaan ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Pertanyaan ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "column": "c_N0",

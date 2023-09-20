@@ -1,10 +1,139 @@
 const getLeaderboard=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": {
             "pesan": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
             "national": {
+                "topfive": [
+                    {
+                        "id": "050307011501",
+                        "fullName": "MIRELLA HAYU NOVITASARI",
+                        "level": "14",
+                        "sort": "1",
+                        "rank": "1",
+                        "total": "114292"
+                    },
+                    {
+                        "id": "060125038001",
+                        "fullName": "NATHANYA TAMPUBOLON",
+                        "level": "14",
+                        "sort": "2",
+                        "rank": "2",
+                        "total": "72288"
+                    },
+                    {
+                        "id": "040318062601",
+                        "fullName": "ARIQ ABDAN SHABBAH",
+                        "level": "14",
+                        "sort": "3",
+                        "rank": "3",
+                        "total": "68773"
+                    },
+                    {
+                        "id": "041124064301",
+                        "fullName": "ALDA LOSARINA KUSUMA DEWI",
+                        "level": "14",
+                        "sort": "4",
+                        "rank": "4",
+                        "total": "68340"
+                    },
+                    {
+                        "id": "061218038001",
+                        "fullName": "NANCY NADINE NATALIONIVA S",
+                        "level": "14",
+                        "sort": "5",
+                        "rank": "5",
+                        "total": "66705"
+                    },
+                    {
+                        "id": "050923044401",
+                        "fullName": "AKBAR FADILLAH",
+                        "level": "14",
+                        "sort": "6",
+                        "rank": "6",
+                        "total": "65143"
+                    },
+                    {
+                        "id": "041015113201",
+                        "fullName": "MAISIE SANIYYAH",
+                        "level": "14",
+                        "sort": "7",
+                        "rank": "7",
+                        "total": "63701"
+                    },
+                    {
+                        "id": "050609008402",
+                        "fullName": "DARREN REKMAL GRADIA",
+                        "level": "14",
+                        "sort": "8",
+                        "rank": "8",
+                        "total": "60587"
+                    },
+                    {
+                        "id": "050515008401",
+                        "fullName": "BELLA AULIA PUTRI",
+                        "level": "14",
+                        "sort": "9",
+                        "rank": "9",
+                        "total": "59461"
+                    },
+                    {
+                        "id": "051005037701",
+                        "fullName": "WINDA CHAIRUNNUR HAMID",
+                        "level": "14",
+                        "sort": "10",
+                        "rank": "10",
+                        "total": "47440"
+                    }
+                ],
+                "myrank": [
+                    {
+                        "id": "050906018901",
+                        "fullName": "TIRZA KRISTIANITA",
+                        "level": "14",
+                        "sort": "36162",
+                        "rank": "36162",
+                        "total": "97"
+                    },
+                    {
+                        "id": "050916008201",
+                        "fullName": "AMALIA LATIF",
+                        "level": "14",
+                        "sort": "36163",
+                        "rank": "36163",
+                        "total": "97"
+                    },
+                    {
+                        "id": "051024016502",
+                        "fullName": "ZASKIA RAMADANI MUSLIM",
+                        "level": "14",
+                        "sort": "36164",
+                        "rank": "36164",
+                        "total": "97"
+                    },
+                    {
+                        "id": "051129028101",
+                        "fullName": "SAUSAN SHALIHAH ALFIRDAUSI",
+                        "level": "14",
+                        "sort": "36165",
+                        "rank": "36165",
+                        "total": "97"
+                    },
+                    {
+                        "id": "060101046201",
+                        "fullName": "JANUARI WIDODO SITUMEANG",
+                        "level": "14",
+                        "sort": "36166",
+                        "rank": "36166",
+                        "total": "97"
+                    }
+                ]
+            },
+            "city": {
                 "topfive": [
                     {
                         "id": "050307011501",
@@ -136,7 +265,11 @@ const getLeaderboard=(req,res)=>{
 
 const getFristrank = (req,res)=>{
     res.json({
-        "status": true,
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": [
             {
                 "cNIS": "70511000101",
@@ -174,8 +307,11 @@ const getFristrank = (req,res)=>{
 
 const getCapaian = (req,res)=>{
     res.json({
-        "status": true,
-        "message": "Capaian kamu ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": {
             "detail": {
                 "benarlevel1": 42,
@@ -203,8 +339,11 @@ const getCapaian = (req,res)=>{
 
 const getCBar =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Total soal ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": [
             {
                 "cidmapel": "6",
@@ -433,8 +572,11 @@ const getCBar =(req,res)=>{
 
 const getracing =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mendapatkan data leaderboard",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": {
             "topfive": [
                 {
