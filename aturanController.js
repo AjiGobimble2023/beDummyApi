@@ -1,5 +1,5 @@
 const getaturan=(req,res)=>{
-    console.log('ok niee');
+
     res.json({
         "meta": {
             "code": 200,
