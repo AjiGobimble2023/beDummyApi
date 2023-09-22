@@ -1,7 +1,10 @@
 const getLeaderboard=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": {
             "pesan": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
             "national": {
@@ -262,7 +265,11 @@ const getLeaderboard=(req,res)=>{
 
 const getFristrank = (req,res)=>{
     res.json({
-        "status": true,
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": [
             {
                 "cNIS": "70511000101",
@@ -300,8 +307,11 @@ const getFristrank = (req,res)=>{
 
 const getCapaian = (req,res)=>{
     res.json({
-        "status": true,
-        "message": "Capaian kamu ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": {
             "detail": {
                 "benarlevel1": 42,
@@ -329,8 +339,11 @@ const getCapaian = (req,res)=>{
 
 const getCBar =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Total soal ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": [
             {
                 "cidmapel": "6",
@@ -559,8 +572,11 @@ const getCBar =(req,res)=>{
 
 const getracing =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mendapatkan data leaderboard",
+        "meta": {
+            "code": 200,
+            "message": "*Rangking dan skor diupdate pada 12 July 2023 10:00 WIB",
+            "status": "Ok"
+        },
         "data": {
             "topfive": [
                 {

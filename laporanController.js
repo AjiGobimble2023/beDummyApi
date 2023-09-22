@@ -1,7 +1,10 @@
 const getVak =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "VAK ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "nis": "050111114701",
             "visual": "15",
@@ -20,8 +23,11 @@ const getVak =(req,res)=>{
 }
 const getLog=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Aktivitas ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "id": "050111114701",
@@ -189,8 +195,11 @@ const getLog=(req,res)=>{
 }
 const getPresensi=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mendapatkan presensi",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "date": "2023-08-28",
@@ -307,7 +316,11 @@ const getPresensi=(req,res)=>{
 }
 const getkuis=(req,res)=>{
     res.json( {
-        "status": true,
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "cnamamapel": "BAHASA INDONESIA",
@@ -513,6 +526,11 @@ const getkuis=(req,res)=>{
 }
 const getTobk=(req,res)=>{
     res.json({
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "kodeTOB": "6789",
@@ -707,8 +725,11 @@ const getTobk=(req,res)=>{
 }
 const getNilaiTobk=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data nilai siswa ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "pilihan": [
                 {
@@ -812,8 +833,11 @@ const getNilaiTobk=(req,res)=>{
 }
 const getGOA=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Bab ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "jumRemedial": 1,
             "hasil": [

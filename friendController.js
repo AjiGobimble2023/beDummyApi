@@ -1,7 +1,10 @@
 const getFriendLeaderboard =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Berhasil mendapatkan teman",
+        "meta": {
+            "code": 200,
+            "message": "Data Teman ditemukan",
+            "status": "Ok"
+        },
         "data": {
             "info": {
                 "lastIndex": 2
@@ -31,8 +34,11 @@ const getFriendLeaderboard =(req,res)=>{
 }
 const getSearchFriend=(req,res)=>{
     res.json({
-    "status": true,
-    "message": "Berhasil mendapatkan teman",
+        "meta": {
+            "code": 200,
+            "message": "Data Teman ditemukan",
+            "status": "Ok"
+        },
     "data": {
         "info": {
             "lastIndex": 10

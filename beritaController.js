@@ -1,7 +1,10 @@
 const getBerita = (req, res) => {
     res.json({
-        status: true,
-    message: "Informasi terbaru ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Berita ditemukan",
+            "status": "Ok"
+        },
         data:
 [
     {
@@ -49,8 +52,11 @@ const getBerita = (req, res) => {
 const getdailynews =(req,res)=>{
     res.json(
         {
-            "status": true,
-            "message": "Informasi terbaru ditemukan",
+            "meta": {
+                "code": 200,
+                "message": "Data Berita ditemukan",
+                "status": "Ok"
+            },
             "data": [
                 {
                     "id": "489",

@@ -20,6 +20,9 @@ const ptn = require('./ptnController');
 const log = require('./logController');
 const aturan = require('./aturanController');
 const profile = require('./profilecontroller');
+const kelompokUjian = require('./kelompokujian');
+const solusi = require('./solusi');
+const jawaban = require('./jawaban');
 const app = express();
 const port = 3000;
 
@@ -29,10 +32,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Penanganan permintaan POST
-app.post('/login',authController.handleLogin);
+app.post('/login/SISWA',authController.handleLogin);
+app.post('/login/Ortu',authController.handleLoginortu);
+app.post('/login/TAMU',authController.handleLoginTamu);
 app.post('/auth/imei',authController.getImei);
 app.post('/auth/registrasi/validasi',authController.validasiRegister);
-app.post('/data/waktuserver',authController.getwaktuserver);
+app.get('/data/waktuserver',authController.getwaktuserver);
+app.post('/refreshtoken',authController.refreshtoken);
 app.post('/aturan',aturan.getaturan);
 app.post('/information',berita.getBerita);
 app.post('/information/daily',berita.getdailynews);
@@ -70,6 +76,7 @@ app.post('/bukusoal/soal/paket/:kodePaket',bukusoal.getDaftarSoalTO);
 app.post('/bukusoal/soal/:opsiUrut/:idBundel',bukusoal.getSoal);
 app.post('/tryout/daftarsoalto',bukusoal.getSoalTO);
 app.post('/tryout/kisikisipaket',bukusoal.getKisikisi);
+app.post('/tryout/getmapelpilihan',profile.getMapelpilihan);
 app.post('/tryout/:idJenisProduk',bukusoal.getDaftarTOB);
 app.post('/tryout/paket/:kodeTOB',bukusoal.getDaftarPaketTo);
 app.post('/bukusoal/paket/timer/:idJenisProduk',bukusoal.getDaftarPaketTo2);
@@ -89,13 +96,18 @@ app.post('/ptn/universitas',ptn.getUnive);
 app.post('/ptn/jurusan',ptn.getJurusan);
 app.post('/ptn/jurusan/detail',ptn.getDetai);
 app.post('/ptn/pilihan',ptn.getpilihan);
+app.post('/ptn/pilihan/simpan',ptn.simpanPilihan);
 app.post('/simulasi/pilihan/simpan',ptn.simpanPilihan);
 app.post('/notif',notif.getnotif);
 app.post('/2210/log/save',log.setLog);
 app.post('/version',log.getVersion);
 app.post('/auth/tahun_ajaran',log.getTahunAjaran);
-app.post('/tryout/getmapelpilihan',profile.getMapelpilihan);
 app.post('/profile/url/:noRegistrasi',profile.getFotoProfile);
+app.post('/kelompokUjian',kelompokUjian.getOpsiPilihan);
+app.post('/solusi/tips/18364/170024',solusi.getSolusi);
+app.post('/video/teori/:kodeBab/:idteori',solusi.getVideoMateri);
+app.post('/store/jawaban',jawaban.jawabanSiswa);
+app.post('/profiling/laporanlulus',jawaban.jawabanSiswa);
 
 
 

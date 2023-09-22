@@ -1,7 +1,10 @@
 const getDaftarBundel=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data bundle soal ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data bundel soal ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "c_IdBundel": "18364",
@@ -368,8 +371,11 @@ const getDaftarBundel=(req,res)=>{
 }
 const getDaftarBab=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Bab Bundle ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Bab Bundel ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "babUtama": "PARAGRAF",
@@ -411,8 +417,11 @@ const getDaftarBab=(req,res)=>{
 }
 const getSoal=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Daftar Soal Bundel ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Soal ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "c_IdBundel": "18364",
@@ -436,8 +445,11 @@ const getSoal=(req,res)=>{
 }
 const getSoalTO=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Soal Tryout ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Soal ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "c_idsoal": "335213",
@@ -540,8 +552,11 @@ const getSoalTO=(req,res)=>{
 }
 const getDaftarSoalTO=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Daftar Soal Paket ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Daftar Soal Paket ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "wacana": "",
@@ -643,8 +658,11 @@ const getSyaratTO=(req,res)=>{
 }
 const getDaftarPaketbasic=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data paket soal ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data daftar Soal basic ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "c_KodeTOB": "18240",
@@ -694,8 +712,11 @@ const getDaftarPaketbasic=(req,res)=>{
 }
 const getDaftarTOB=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Try Out ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Ty out ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "kode_tob": 16759,
@@ -725,9 +746,11 @@ const getDaftarTOB=(req,res)=>{
 }
 const cekBolehTO=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Kamu tidak bisa mengerjakan TOBK UJI COBA TIM BTI 12 IPA, karena tidak memenuhi persyaratan Empati Wajib",
-        "data": {
+        "meta": {
+            "code": 200,
+            "message": "Data Cek Boleh ditemukan",
+            "status": "Ok"
+        },"data": {
             "isLulus": true,
             "sudahMengerjakan": false,
             "jumlahBenar": 1,
@@ -765,8 +788,11 @@ const cekBolehTO=(req,res)=>{
 }
 const getDaftarPaketTo=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Paket Try Out Ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Paket Try out ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "kodeTOB": "13680",
@@ -828,8 +854,11 @@ const getDaftarPaketTo=(req,res)=>{
 }
 const getDaftarPaketTo2=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data paket timer ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Paket Timer ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "kodeTOB": "18526",
@@ -1007,8 +1036,11 @@ const getDaftarPaketTo2=(req,res)=>{
 const getKisikisi=(req,res)=>{
     console.log(req.body);
     res.json({
-        "status": true,
-        "message": "Data Kisi-kisi ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Kisi Kisi ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "kelompokUjian": "TPS - PENGETAHUAN DAN PEMAHAMAN UMUM",
@@ -1082,14 +1114,20 @@ const getKisikisi=(req,res)=>{
 }
 const simpanJawaban=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Hasil berhasil disimpan"
+        "meta": {
+            "code": 200,
+            "message": "Data berhasil disimpan",
+            "status": "Ok"
+        },
     })
 }
 const gethasil=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Hasil ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Hasil Jawaban ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "benar": 1,

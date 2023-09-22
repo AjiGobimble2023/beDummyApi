@@ -1,7 +1,10 @@
 const getjadwal = (req, res) => {
  res.json({
-    "status": true,
-    "message": "Jadwal siswa ditemukan",
+    "meta": {
+            "code": 200,
+            "message": "Data Jadwal ditemukan",
+            "status": "Ok"
+        },
     "data": {
         "2023-09-05": [
             {
@@ -66,8 +69,11 @@ const getjadwal = (req, res) => {
 }
 const getvideobab =(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Mapel ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Video bab ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "babutama": "PARAGRAF",
@@ -413,8 +419,11 @@ const getvideobab =(req,res)=>{
 }
 const getvideomapel=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Mapel ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Mapel ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {   "iconMapel":"https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_indo.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",
                 "c_IdMataPelajaran": "6",
@@ -438,8 +447,11 @@ const getvideomapel=(req,res)=>{
 }
 const getstandbyTst=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Jadwal berhasil ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Jadwal ditemukan",
+            "status": "Ok"
+        },
         "data": [
             {
                 "date": "2023-09-16",
@@ -473,8 +485,11 @@ const getstandbyTst=(req,res)=>{
 }
 const getVideoTeaser=(req,res)=>{
     res.json({
-        "status": true,
-        "message": "Data Video ditemukan",
+        "meta": {
+            "code": 200,
+            "message": "Data Video ditemukan",
+            "status": "Ok"
+        },
         "data": "http://streaming.ganeshaoperation.com/index.php?v=Wkcxc2ExcFhPVEJhVjBaNldsaEpkazlFUVhwT1ZHTjRUbXBvYkZsNldYZFBWRnB0VGxkT2FVMVhVWHBPVjBWM1RVZFplbGxYVm1sT1JFVjFZbGhCTUE9PQ=="
     })
 }

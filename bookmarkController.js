@@ -1,8 +1,11 @@
 const getBookmark=(req,res)=>{
     res.json(
         {
-            "status": true,
-            "message": "Bookmark didapatkan",
+            "meta": {
+                "code": 200,
+                "message": "Data Bookmark ditemukan",
+                "status": "Ok"
+            },
             "data": [
                 {
                     "iconMapel": "https://firebasestorage.googleapis.com/v0/b/kreasi-f1f7b.appspot.com/o/icon%2Fmapel%2Fmapel_matematika.webp?alt=media&token=c2641f9f-b8f0-42c9-90e7-488a759aaf78",

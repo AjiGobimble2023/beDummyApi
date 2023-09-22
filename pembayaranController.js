@@ -24,6 +24,14 @@ const getPembayaranDetail=(req,res)=>{
                 "remaining": "0",
                 "status": "LUNAS",
                 "c_jatuhtempo": null
+            },
+            {
+                "c_idpembelian": "1793357",
+                "total": "7498000",
+                "current": "7490000",
+                "remaining": "8000",
+                "status": "Cicilan ke 4",
+                "c_jatuhtempo": null
             }
         ]
     })
