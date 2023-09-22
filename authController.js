@@ -16,6 +16,7 @@ const handleLogin = (req, res) => {
             "namaLengkap": "YAZID FAUZAN HARTONO",
             "idSekolahKelas": "15",
             "namaSekolahKelas": "12 SMA IPS",
+            "tingkat":"SMA",
             "siapa": "SISWA",
             "idKelas": "254562,266691",
             "namaKelas": "12-IPS-R-N-2202,12-IPA-R-N-B01",
@@ -352,6 +353,332 @@ const handleLogin = (req, res) => {
         "kirimOTP": false
     });
 }
+const handleLoginortu = (req, res) => {
+      // Lakukan apa pun yang ingin Anda lakukan dengan data yang diterima
+      console.log('Data yang diterima:', req.body);
+    
+      // Mengirimkan respons kembali dengan data yang diterima
+      res.json({
+        "meta": {
+            "code": 200,
+            "message": "Data pilihan PTN berhasil ditemukan",
+            "status": "Ok"
+        },
+        "data": {
+            "noRegistrasi": "080517094901",
+            "namaLengkap": "ARIS SYAHPUTRA",
+            "idSekolahKelas": "25",
+            "namaSekolahKelas": "10 SMA UMUM",
+            "siapa": "ORTU",
+            "idKelas": "270491",
+            "namaKelas": "10-UMUM-R-N-31",
+            "jenisKelas": "REGULER NON SD",
+            "idGedung": "949",
+            "namaGedung": "Citra Utama Timur 1B",
+            "idKota": "56",
+            "namaKota": "TANGERANG SELATAN",
+            "idSekolah": "111857",
+            "namaSekolah": "SMA Citra Islami",
+            "tahunAjaran": "2023/2024",
+            "c_Statusbayar": "LUNAS",
+            "email": "arissyahputra17@gmail.com",
+            "emailOrtu": "suryaninurminah96@gmail.com",
+            "nomorHp": "082122385774",
+            "nomorHpOrtu": "085319446900"
+        },
+        "statusBayar": "",
+        "pilihanPTN": "{\"pilihan1\":3611066,\"pilihan2\":341059,\"historyPilihan\":[{\"pilihan\":1,\"tanggal\":\"2023-07-28 17:27:47\",\"idJurusan\":3611066},{\"pilihan\":2,\"tanggal\":\"2023-08-12 23:36:07\",\"idJurusan\":341059}]}",
+        "jobOrtu": "KARYAWAM SWASTA",
+        "daftarAnak": [
+            {
+                "noRegistrasi": "080517094901",
+                "namaLengkap": "ARIS SYAHPUTRA",
+                "nomorHp": "085319446900"
+            }
+        ],
+        "tokenJWT": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTUzNjE5NzIsImV4cCI6MTY5Nzk1Mzk3MiwidWlkIjoiMDgwNTE3MDk0OTAxIiwiZGF0YSI6eyJub1JlZ2lzdHJhc2kiOiIwODA1MTcwOTQ5MDEiLCJuYW1hTGVuZ2thcCI6IkFSSVMgU1lBSFBVVFJBIiwiaWRTZWtvbGFoS2VsYXMiOiIyNSIsIm5hbWFTZWtvbGFoS2VsYXMiOiIxMCBTTUEgVU1VTSIsInNpYXBhIjoiT1JUVSIsImlkS2VsYXMiOiIyNzA0OTEiLCJuYW1hS2VsYXMiOiIxMC1VTVVNLVItTi0zMSIsImplbmlzS2VsYXMiOiJSRUdVTEVSIE5PTiBTRCIsImlkR2VkdW5nIjoiOTQ5IiwibmFtYUdlZHVuZyI6IkNpdHJhIFV0YW1hIFRpbXVyIDFCIiwiaWRLb3RhIjoiNTYiLCJuYW1hS290YSI6IlRBTkdFUkFORyBTRUxBVEFOIiwiaWRTZWtvbGFoIjoiMTExODU3IiwibmFtYVNla29sYWgiOiJTTUEgQ2l0cmEgSXNsYW1pIiwidGFodW5BamFyYW4iOiIyMDIzXC8yMDI0IiwiY19TdGF0dXNiYXlhciI6IkxVTkFTIiwiZW1haWwiOiJhcmlzc3lhaHB1dHJhMTdAZ21haWwuY29tIiwiZW1haWxPcnR1Ijoic3VyeWFuaW51cm1pbmFoOTZAZ21haWwuY29tIiwibm9tb3JIcCI6IjA4MjEyMjM4NTc3NCIsIm5vbW9ySHBPcnR1IjoiMDg1MzE5NDQ2OTAwIn19.q3mwtMmRyAWJ34yE1JR02W6Ar9xNQ09Iz3VSF8MC_cM",
+        "daftarProduk": [
+            {
+                "c_IdKomponentProduk": "32658",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Buku Sakti Empati Mandiri 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "71",
+                "c_NamaJenisProduk": "e-Empati Mandiri",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "32727",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Buku Sakti Empati Wajib 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "72",
+                "c_NamaJenisProduk": "e-Empati Wajib",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "32794",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- GOA 10 SMA",
+                "c_IdJenisProduk": "12",
+                "c_NamaJenisProduk": "e-GOA",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "32809",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Kuis 10 SMA UMUM Merdeka S2",
+                "c_IdJenisProduk": "16",
+                "c_NamaJenisProduk": "e-Kuis",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "32810",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Kuis 10 SMA UMUM Merdeka S1",
+                "c_IdJenisProduk": "16",
+                "c_NamaJenisProduk": "e-Kuis",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "32886",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Buku Sakti Latihan Ekstra 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "76",
+                "c_NamaJenisProduk": "e-Latihan Ekstra",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33012",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Buku Sakti Paket Soal Koding 10 SMA UMUM Merdeka S2",
+                "c_IdJenisProduk": "78",
+                "c_NamaJenisProduk": "e-Paket Soal Koding",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33011",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Buku Sakti Paket Soal Koding 10 SMA UMUM Merdeka S1",
+                "c_IdJenisProduk": "78",
+                "c_NamaJenisProduk": "e-Paket Soal Koding",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33158",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Racing 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "80",
+                "c_NamaJenisProduk": "e-Racing",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33227",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Rumus 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "46",
+                "c_NamaJenisProduk": "e-Rumus",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33280",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e-Buku Sakti Soal Referensi 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "82",
+                "c_NamaJenisProduk": "e-SoRef",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33278",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e-Buku Sakti Soal Referensi 10 SMA IPA K13R Khusus",
+                "c_IdJenisProduk": "82",
+                "c_NamaJenisProduk": "e-SoRef",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33279",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e-Buku Sakti Soal Referensi 10 SMA IPA K13R Promosi",
+                "c_IdJenisProduk": "82",
+                "c_NamaJenisProduk": "e-SoRef",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33408",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Teori Lengkap 10 SMA UMUM Merdeka S1",
+                "c_IdJenisProduk": "59",
+                "c_NamaJenisProduk": "e-Teori",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33409",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e-Teori Lengkap 10 SMA UMUM Promosi",
+                "c_IdJenisProduk": "59",
+                "c_NamaJenisProduk": "e-Teori",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33505",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- TOBK 10 SMA UMUM Merdeka S2",
+                "c_IdJenisProduk": "25",
+                "c_NamaJenisProduk": "e-TOBK",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33503",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- TOBK 10 SMA IPA K13R Promosi",
+                "c_IdJenisProduk": "25",
+                "c_NamaJenisProduk": "e-TOBK",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33506",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- TOBK 10 SMA UMUM Merdeka S1",
+                "c_IdJenisProduk": "25",
+                "c_NamaJenisProduk": "e-TOBK",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33619",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- VAK SMA",
+                "c_IdJenisProduk": "65",
+                "c_NamaJenisProduk": "e-VAK",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33624",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Video ekstra 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "57",
+                "c_NamaJenisProduk": "e-Video Ekstra",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33691",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Video Soal 10 SMA",
+                "c_IdJenisProduk": "87",
+                "c_NamaJenisProduk": "e-Video Soal",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33704",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_e- Video Teori 10 SMA",
+                "c_IdJenisProduk": "88",
+                "c_NamaJenisProduk": "e-Video Teori",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            },
+            {
+                "c_IdKomponentProduk": "33725",
+                "c_IdBundling": "770176",
+                "c_NamaBundling": "TWT 10 SMA KMerdeka 4P 23/24",
+                "c_NamaProduk": "23_f- Koding 10 SMA UMUM Merdeka",
+                "c_IdJenisProduk": "3",
+                "c_NamaJenisProduk": "f-Koding",
+                "c_TanggalAwal": "2023-07-03",
+                "c_TanggalAkhir": "2024-06-30",
+                "c_IdSekolahKelas": "25"
+            }
+        ],
+        "waktu": "180",
+        "kirimOTP": false
+    });
+}
+const handleLoginTamu = (req, res) => {
+    // Lakukan apa pun yang ingin Anda lakukan dengan data yang diterima
+    console.log('Data yang diterima:', req.body);
+  
+    // Mengirimkan respons kembali dengan data yang diterima
+    res.json({
+      "meta": {
+          "code": 200,
+          "message": "Data pilihan PTN berhasil ditemukan",
+          "status": "Ok"
+      },
+      "data": {
+          "siapa": "TAMU",
+          "namaLengkap": "FAUZAN HARTONO",
+          "nomorHp": "083166563212",
+      },
+      "daftarAnak": [],
+      "tokenJWT": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTM0Njk5MTcsImV4cCI6MTY5NjA2MTkxNywidWlkIjoiMDQwOTE2MDI2MTAxIiwiZGF0YSI6eyJub1JlZ2lzdHJhc2kiOiIwNDA5MTYwMjYxMDEiLCJuYW1hTGVuZ2thcCI6IllBWklEIEZBVVpBTiBIQVJUT05PIiwiaWRTZWtvbGFoS2VsYXMiOiIxNSIsIm5hbWFTZWtvbGFoS2VsYXMiOiIxMiBTTUEgSVBTIiwic2lhcGEiOiJTSVNXQSIsImlkS2VsYXMiOiIyNTQ1NjIsMjY2NjkxIiwibmFtYUtlbGFzIjoiMTItSVBTLVItTi0yMjAyLDEyLUlQQS1SLU4tQjAxIiwiamVuaXNLZWxhcyI6IlJFR1VMRVIgTk9OIFNEIiwiaWRHZWR1bmciOiIyNjEiLCJuYW1hR2VkdW5nIjoiQ0lQVVRBVCBOby4gNzUgQSIsImlkS290YSI6IjI4NyIsIm5hbWFLb3RhIjoiSkFLQVJUQSA0IiwiaWRTZWtvbGFoIjoiMzkxMDA3IiwibmFtYVNla29sYWgiOiJTTUEgSVNMQU0gVEVSUEFEVSBBTC1NVUxUQVpBTSAyIExJTkdHQUpBVEkiLCJ0YWh1bkFqYXJhbiI6IjIwMjJcLzIwMjMiLCJjX1N0YXR1c2JheWFyIjoiTFVOQVMiLCJlbWFpbCI6ImZhdXpubjE2QGdtYWlsLmNvbSIsImVtYWlsT3J0dSI6InR1Z2FzLmlidXRpbmlAZ21haWwuY29tIiwibm9tb3JIcCI6IjA4MzE2NjU2MzIxMiIsIm5vbW9ySHBPcnR1IjoiMDgxMzg0OTY1Njg2In19.k8EBOBHWZAa-ooPyB9g9D1tItKgMt9M-rCdOrgW707k",
+     
+      "waktu": "180",
+      "kirimOTP": false
+  });
+}
 const validasiRegister = (req,res)=>{
     res.json({
         "meta": {
@@ -427,6 +754,8 @@ const refreshtoken = (req,res)=>{
     validasiRegister,
     getwaktuserver,
     getImei,
-    refreshtoken
+    refreshtoken,
+    handleLoginortu,
+    handleLoginTamu
   };
    
