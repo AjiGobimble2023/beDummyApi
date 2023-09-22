@@ -353,7 +353,7 @@ const handleLogin = (req, res) => {
     //     "kirimOTP": false
     // });
     res.json({
-        "data": 
+        "data": [
           {
             "DataSiswa": {
               "noRegistrasi": "040916026101",
@@ -398,7 +398,7 @@ const handleLogin = (req, res) => {
                 ]
               }
             ]
-          },
+          }],
         "meta": {
           "code": 200,
           "message": "Success",
