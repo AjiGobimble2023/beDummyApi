@@ -353,7 +353,7 @@ const handleLogin = (req, res) => {
     //     "kirimOTP": false
     // });
     res.json({
-        "data": [
+        "data": 
           {
             "DataSiswa": {
               "noRegistrasi": "040916026101",
@@ -385,8 +385,8 @@ const handleLogin = (req, res) => {
                   {
                     "id_bundling": 718868,
                     "nama_bundling": "TWT 12 IPA Super Intensif Unit Ciputat : 12 KBM",
-                    "tanggal_awal": "2023-01-05T00:00:00.000Z",
-                    "tanggal_akhir": "2023-06-01T00:00:00.000Z",
+                    "tanggal_awal": "2023-01-05 00:00:00.000",
+                    "tanggal_akhir": "2023-06-01 00:00:00.000",
                     "id_sekolah_kelas": 14,
                     "nama_jenis_kelas": "REGULER NON SD",
                     "id_produk": 23257,
@@ -398,8 +398,7 @@ const handleLogin = (req, res) => {
                 ]
               }
             ]
-          }
-        ],
+          },
         "meta": {
           "code": 200,
           "message": "Success",
