@@ -8,15 +8,15 @@ const getrencanalist=(req,res)=>{
             "c_NoRegister": "981123000001",
             "c_TglBuat": "2023-09-06 13:42:25",
             "c_Menu": "TOBK",
-            "c_Keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Sep 2023 sampai dengan [23:59] 10 Sep 2023",
-            "c_Awal": "2023-09-8 09:37:00",
-            "c_Akhir": "2023-09-12 05:00:00",
+            "c_Keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Nov 2023 sampai dengan [23:59] 10 Sep 2023",
+            "c_Awal": "2023-11-2 09:37:00",
+            "c_Akhir": "2023-11-5 05:00:00",
             "c_LastUpdate": null,
             "c_isdone": "n",
             "c_argument": {
                 "kodeTOB": "17053",
                 "namaTOB": "TOBK SEPTEMBER 12 IPA K13R",
-                "keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Sep 2023 sampai dengan [23:59] 10 Sep 2023",
+                "keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Nov 2023 sampai dengan [23:59] 10 Sep 2023",
                 "idJenisProduk": 25,
                 "namaJenisProduk": "e-TOBK"
             }
@@ -24,17 +24,17 @@ const getrencanalist=(req,res)=>{
         {
             "c_Id": "6723",
             "c_NoRegister": "981123000001",
-            "c_TglBuat": "2023-09-06 13:41:27",
+            "c_TglBuat": "2023-10-11 13:41:27",
             "c_Menu": "TOBK",
-            "c_Keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Sep 2023 sampai dengan [23:59] 10 Sep 2023",
-            "c_Awal": "2023-09-12 01:00:00",
-            "c_Akhir": "2023-09-12 02:00:00",
+            "c_Keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Nov 2023 sampai dengan [23:59] 10 Sep 2023",
+            "c_Awal": "2023-11-6 01:00:00",
+            "c_Akhir": "2023-11-12 02:00:00",
             "c_LastUpdate": null,
             "c_isdone": "n",
             "c_argument": {
                 "kodeTOB": "17053",
                 "namaTOB": "TOBK SEPTEMBER 12 IPA K13R",
-                "keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Sep 2023 sampai dengan [23:59] 10 Sep 2023",
+                "keterangan": "Mengerjakan TryOut TOBK SEPTEMBER 12 IPA K13R dimulai pada [00:00] 04 Nov 2023 sampai dengan [23:59] 10 Sep 2023",
                 "idJenisProduk": 25,
                 "namaJenisProduk": "e-TOBK"
             }
